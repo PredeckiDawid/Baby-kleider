@@ -109,10 +109,8 @@ a img.aligncenter {display: block;margin-left: auto;margin-right: auto;}
 .item-img img {max-height: 70vh;height: auto;}
 @media screen and (max-width: 767.98px) {display: none;}
 .shop-list:before {display: none;}
-#sidebar {display: none;}
 @media screen and (max-width: 601px) {padding-top: 10vh !important;padding-bottom: 10vh;}
 .caption-item h3 {font-weight: normal;font-size: 25px;}
-.caption-item {top: 8%;}
 @media screen and (max-width: 520px) {max-width: 230px;margin-top: 10px;}
 #sidebar {padding-left: 20px;max-height: 100vh;height: auto;width: auto;}
 #sidebar .menu-footer-menu-container {padding-bottom: 20px;}
