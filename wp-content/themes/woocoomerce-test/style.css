@@ -1,0 +1,165 @@
+.alignnone {margin: 5px 20px 20px 0;}
+.aligncenter, div.aligncenter {display: block;margin: 5px auto 5px auto;}
+.alignright {float: right;margin: 5px 0 20px 20px;}
+.alignleft {float: left;margin: 5px 20px 20px 0;}
+a img.alignright {float: right;margin: 5px 0 20px 20px;}
+a img.alignnone {margin: 5px 20px 20px 0;}
+a img.alignleft {float: left;margin: 5px 20px 20px 0;}
+a img.aligncenter {display: block;margin-left: auto;margin-right: auto;}
+.wp-caption {max-width: 96%;padding: 5px 3px 10px;text-align: center;}
+.wp-caption.alignnone {margin: 5px 20px 20px 0;}
+.wp-caption.alignleft {margin: 5px 20px 20px 0;}
+.wp-caption.alignright {margin: 5px 0 20px 20px;}
+.wp-caption img {border: 0 none;height: auto;margin: 0;max-width: 98.5%;padding: 0;width: auto;}
+.wp-caption p.wp-caption-text {font-size: 11px;line-height: 17px;margin: 0;padding: 0 4px 5px;}
+.gallery-item {display: inline-block;text-align: left;vertical-align: top;width: 50%;}
+.gallery-item a, .gallery-item a:hover, .gallery-item a:focus {-webkit-box-shadow: none;box-shadow: none;background: none;display: inline-block;max-width: 100%;}
+.gallery-item a img {display: block;-webkit-transition: -webkit-filter .2s ease-in;transition: -webkit-filter .2s ease-in;transition: filter .2s ease-in;transition: filter .2s ease-in,-webkit-filter .2s ease-in;-webkit-backface-visibility: hidden;backface-visibility: hidden;}
+.gallery-item a:hover img, .gallery-item a:focus img {-webkit-filter: opacity(60%);filter: opacity(60%);}
+.gallery-caption {display: block;text-align: left;padding: 0 10px 0 0;margin-bottom: 0;}
+.gallery-columns-1 .gallery-item {max-width: 100%;}
+.gallery-columns-2 .gallery-item {max-width: 50%;}
+.gallery-columns-3 .gallery-item {max-width: 33%;}
+.gallery-columns-4 .gallery-item {max-width: 25%;}
+.gallery-columns-5 .gallery-item {max-width: 20%;}
+.gallery-columns-6 .gallery-item {max-width: 16.66%;}
+.gallery-columns-7 .gallery-item {max-width: 14.28%;}
+.gallery-columns-8 .gallery-item {max-width: 12.5%;}
+.gallery-columns-9 .gallery-item {max-width: 11.11%;}
+.gallery-columns-6 .gallery-caption, .gallery-columns-7 .gallery-caption, .gallery-columns-8 .gallery-caption, .gallery-columns-9 .gallery-caption {display: none;}
+.bypostauthor {font-weight: bold;}
+.screen-reader-text {clip: rect(1px,1px,1px,1px);position: absolute !important;height: 1px;width: 1px;overflow: hidden;}
+.screen-reader-text:focus {background-color: #f1f1f1;border-radius: 3px;box-shadow: 0 0 2px 2px rgba(0,0,0,.6);clip: auto !important;color: #21759b;display: block;font-size: 14px;font-size: .875rem;font-weight: bold;height: auto;left: 5px;line-height: normal;padding: 15px 23px 14px;text-decoration: none;top: 5px;width: auto;z-index: 100000;}
+.social-media {margin: 0 auto;}
+.social-media li {list-style: none;display: inline-block;font-size: 35px;padding: 5px;margin: 0 auto;}
+.social-media ul {padding-left: 0rem !important;}
+.media-zahlung .zahlungimg {display: block;margin: 0 auto;}
+.media-zahlung p {text-align: center;margin-top: 0 !important;}
+@media screen and (max-width: 440px) {#footer .social-media {margin-bottom: 10vh;}}
+#footer .widget {margin: 30px 0 100px 0;}
+#footer .nav-link {width: 160px;padding: 5px;color: var(--custom-footer-p);}
+#footer .nav-link:before {content: "";display: inline-block;background-image: url("https://atibebe.ch/wp-content/themes/enfold/config-woocommerce/images/bullet_grey.png");background-repeat: no-repeat;background-size: auto;height: 10px;width: 10px;}
+#footer .nav-link:hover {text-decoration: underline;color: #dabfae;}
+#footer .image {max-width: 100%;height: 100px;text-align: center;}
+.copyright {background-color: #333;padding: 10px;position: absolute;bottom: 0;left: 0;}
+.copyright p {padding: 10px;font-size: 13px;color: #fff !important;}
+.widget-title {color: #432b28;font-size: 16px;font-weight: 600;text-transform: uppercase;letter-spacing: 1px;}
+.widget-title-social {color: #432b28;font-size: 16px;}
+#carouselblog {position: relative;}
+#carouselblog .carousel-item {position: relative;}
+#carouselblog .carousel-caption {position: absolute;top: 30%;text-align: left;}
+#carouselblog .caption-right {position: absolute;top: 30%;text-align: right;}
+.caption-right h5 {max-width: none !important;}
+.carousel-caption h5 {max-width: 400px;word-break: break-word;width: auto;font-size: 44px;color: #432b28;padding-bottom: 15px;}
+.carousel-caption p {color: #818181;font-size: 18px;padding-bottom: 25px;}
+.carousel-caption .button-m {color: #fff;background-color: #dabfae;border-radius: 3px;border: 1px solid #dabfae;font-size: 14px;padding: 14px 30px 14px 30px;font-weight: bold;margin-right: 30px;}
+.carousel-caption .button-j {color: #000;color: rgba(0,0,0,.6);background-color: rgba(255,255,255,.1);border: 3px solid rgba(0,0,0,.6);background: transparent;border-radius: 3px;padding: 12px 30px 12px 30px;font-size: 14px;font-weight: bold;}
+.carousel-item img {width: auto;}
+.item-img {position: relative;padding: 0 !important;}
+.item-img img {width: 100%;min-height: 45vh;height: auto;margin: 0 auto;}
+.caption-item {position: absolute;top: 0;width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;color: #fff;}
+.caption-item h3 {font-weight: normal;font-size: 18px;}
+#Top-Angebote {position: relative;padding-top: 10vh;padding-bottom: 10vh;height: auto;min-height: 100vh;}
+.title-caption {text-align: center;text-transform: uppercase;letter-spacing: 1px;}
+.center-diamond {width: 50%;margin: 0 auto;margin-top: 5vh;}
+#neue-kollektion {position: relative;}
+#neue-kollektion .price {font-size: 18px;color: #dabfae;font-weight: bold;}
+#neue-kollektion button {background-color: #dabfae;border: 0;color: #fff;display: block;margin: 0 auto;padding: 20px;width: 90%;font-size: 23px;margin-bottom: 10%;border-radius: 3px;}
+#neue-kollektion .center-diamond {width: 70%;margin-left: unset;}
+#neue-kollektion .woocommerce ul.products li.product .button {display: none;}
+#neue-kollektion .woocommerce .columns-3 {padding: 35px;padding-bottom: 10px;}
+#neue-kollektion a {color: #333;}
+#neue-kollektion .woocommerce ul.products li.product a img:hover {transform: scale(1.1);transition: .65s;}
+.left-side {background-color: #f8f8f8;}
+.left-side .title-caption {position: relative;padding: 35px;text-align: left;}
+.right-side {background-image: url("https://predeckidawid.github.io/Baby-kleider/wp-content/uploads/2023/05/babymode-online-bestellen-ati-bebe-shop.jpg");background-repeat: no-repeat;background-position: center;background-size: cover;}
+#was_section {position: relative;min-height: 70vh;height: auto;padding-top: 6%;padding-bottom: 3%;}
+.item-img:before {background-color: rgba(0,0,0,.37);content: "";display: block;height: 100%;position: absolute;width: 100%;}
+.item {overflow: hidden;}
+.item-img:hover {transform: scale(1.1);transition: .65s;cursor: pointer;opacity: .7;}
+.caption-item:hover {color: #000;opacity: 1;}
+.caption-item h3:hover {font-size: 30px;transition: .4s;}
+.all-items {text-align: justify;font-weight: bold;}
+.all-items li {list-style: none;color: #432b28;font-size: 23px;padding: 25px;padding-top: 15px;word-break: break-word;margin-bottom: 35px;margin-left: 60px;text-align: left;font-weight: lighter;}
+.all-items i {font-size: 25px;border: 1px solid #000;padding: 20px;border-radius: 100%;position: absolute;}
+.title-was {text-align: center;}
+.text-caption {background-color: #dabfae;text-align: center;padding: 50px;color: #fff;width: 100%;}
+@media screen and (max-width: 988px) {.allitems {text-align: center;}
+	.all-items i {float: none;position: absolute;}
+	.all-items li {font-size: 14px;}}
+@media screen and (max-width: 781.98px) {.column-2-back {display: none;}
+	.column-1-back {padding: 25% !important;border: none;}}
+@media screen and (max-width: 768px) {.all-items {text-align: center;}
+	.all-items i {float: left;font-size: 18px;padding: 15px;position: unset;}
+	.all-items li {margin-bottom: 5px;word-wrap: break-word;font-size: 15px;}}
+.banner-single {height: 55vh;background-size: cover;background-position: center;width: 100%;position: relative;}
+.banner-single:before {background-color: rgba(0,0,0,.37);content: "";display: block;height: 100%;position: absolute;width: 100%;}
+.banner-title {position: absolute;margin-left: auto;margin-right: auto;left: 0;right: 0;top: 42%;text-align: center;color: #fff;text-transform: uppercase;}
+.myaccount-desc {background-color: #ccc;padding: 20px;margin: 15vh 4vh 10vh 4vh;font-size: 20px;border: .5px solid #333;border-radius: 10px;}
+.myaccount-desc a {text-decoration: underline;color: #fff;text-transform: capitalize;}
+.woocommerce-MyAccount-navigation {margin-top: 5vh;margin-bottom: 5vh;max-width: 100%;width: auto;}
+.navigation-myaccount li {list-style: none;border: .5px solid #333;border-radius: 10px;background-color: #ccc;padding: 15px;margin-bottom: 10px;}
+.navigation-myaccount a {text-decoration: underline;color: #fff;text-transform: capitalize;font-size: 20px;}
+#Top-Angebote .woocommerce .products ul, .woocommerce ul.products {text-align: center;font-size: 18px;}
+#Top-Angebote .price {font-size: 18px;color: #dabfae;font-weight: bold;}
+#Top-Angebote a {color: #333;}
+#Top-Angebote .woocommerce ul.products li.product a img:hover {transform: scale(1.1);transition: .65s;}
+#Top-Angebote .center-diamond {margin-bottom: 30px;}
+@media screen and (max-width: 992.98px) {#sidebar {padding-left: 0px !important;}}
+.item-img img {max-height: 70vh;height: auto;}
+@media screen and (max-width: 767.98px) {display: none;}
+.shop-list:before {display: none;}
+#sidebar {display: none;}
+@media screen and (max-width: 601px) {padding-top: 10vh !important;padding-bottom: 10vh;}
+.caption-item h3 {font-weight: normal;font-size: 25px;}
+.caption-item {top: 8%;}
+@media screen and (max-width: 520px) {max-width: 230px;margin-top: 10px;}
+#sidebar {padding-left: 20px;max-height: 100vh;height: auto;width: auto;}
+#sidebar .menu-footer-menu-container {padding-bottom: 20px;}
+#sidebar .nav-link {color: #666;font-size: 18px;max-width: 100%;width: auto;padding: 5px 0 5px 0;}
+#sidebar h3 {font-size: 28px;}
+#shop {margin-top: 50px;}
+.shop-list .woocommerce ul.products li.product .button {display: none;}
+.shop-list {position: relative;padding-right: 35px !important;}
+.shop-list:before {content: "";position: absolute;right: 0;border-right: 1px solid #e1e1e1;height: 100%;}
+.shop-list .woocommerce ul.products li.product .price {font-size: 18px;color: #dabfae;font-weight: bold;}
+.shop-list a {color: #333;}
+.shop-list .woocommerce ul.products li.product a img:hover {transform: scale(1.1);transition: .65s;}
+option:checked {background-color: #dabfae;}
+select {font-weight: bold;}
+.woocommerce-page .owt-container {margin-top: 60px;}
+.woocommerce-page .woocommerce ul.products li.product a img:hover {transform: scale(1.1);transition: .65s;}
+.sort-par {max-width: 550px;}
+.column-1 {padding: 5%;}
+.column-1-back {background-image: url("https://predeckidawid.github.io/Baby-kleider/wp-content/uploads/2023/03/babykleidung-accessoires-online-bestellen-ati-bebe-shop-1500x1000-1.jpg");background-repeat: no-repeat;background-position: center;background-size: cover;padding: 7%;vertical-align: middle;background-attachment: scroll;border-left: 1px solid #e1e1e1;}
+.column-2-back {background-image: url("https://predeckidawid.github.io/Baby-kleider/wp-content/uploads/2023/03/uber-uns-grid-row-img2.jpg");background-repeat: no-repeat;background-position: center;background-size: cover;padding: 5.1%;vertical-align: middle;background-attachment: scroll;border-right: 1px solid #e1e1e1;}
+.separator {width: 50%;margin-left: 0;margin-top: 50px;margin-bottom: 50px;}
+.border-column {border-color: #e1e1e1;border-top-style: solid;border-top-width: 1px;border-bottom-style: solid;border-bottom-width: 1px;border-left: none;border-right: none;}
+.second-col {border-top: none;}
+.wp-block-columns {margin-bottom: 0 !important;}
+.span-title {color: #dabfae;}
+.cartcontents {position: absolute;top: -24px;right: -12px;padding: 2px 7px;color: #fff;background-color: #dabfae;border-radius: 100%;font-size: 15px;text-shadow: 4px 4px 6px rgba(66,68,90,.5);}
+.wpmenucart-icon-shopping-cart-0:before {font-size: 25px;position: relative;color: #000;transition: 1s;}
+#wpmenucartli a {position: relative;}
+.wpmenucart-icon-shopping-cart-0:hover:before {color: #dabfae;font-size: 28px;}
+#wpmenucartli {border-right: 1px solid #000;border-left: 1px solid #000;padding-left: 25px;padding-right: 25px;height: 100px;display: flex;align-items: center;}
+.navbar-nav li {display: flex;align-items: center;}
+.minus, .plus {padding: 0;vertical-align: middle;line-height: 41px;border: none;border: 0;border: 1px solid #e1e1e1;width: 43px;height: 43px;cursor: pointer;margin: 0;display: inline;border-radius: 0;-webkit-appearance: none;background-color: #efefef;color: #666;background-image: url("../images/layout/bg-button.png");background-repeat: repeat-x;outline: none;font-weight: bold;}
+.content-product {background-color: #f8f8f8;border-radius: 10px;position: relative;position: relative;border: .4px solid #efefef;display: flex;flex-direction: column;flex-wrap: wrap;justify-content: center;}
+.content-product li {list-style-type: none;}
+.content-product .logo {width: 100%;display: flex;justify-content: center;align-items: flex-start;}
+.content-product .logo img {width: 130px;}
+.content-product .woocommerce-product-details__short-description {padding: 35px 30px 15px 30px;}
+.content-product h5 {color: #dabfae;cursor: pointer;font-size: 18px;padding-bottom: 15px;}
+.product-ship-info {margin-top: 30px;text-transform: capitalize;margin-bottom: 10px;text-align: center;max-width: 100%;}
+.product-ship-info p {margin-bottom: 0;}
+.woocommerce-variation-price {margin-bottom: 30px;margin-top: 30px;text-align: center;}
+@media screen and (min-width: 1100px) {.navbar-nav li {padding-right: 20px;}}
+.contact-form {text-align: center;}
+.kontakt-sec1 {background-color: #e1e1e1;border-radius: 10px;padding: 20px 10px;display: flex;justify-content: center;flex-direction: column;text-align: center;position: relative;}
+.kontakt-sec1 .contact-form input {width: 100%;border-radius: 5px;background-color: #f8f8f8;color: #8d8d8d;}
+.kontakt-sec1 .contact-form .wpcf7-submit {width: 40%;border-radius: 5px;background-color: #dabfae;margin: 0 auto;position: absolute;left: 0;right: 0;color: #000;}
+.kontakt-sec1 .contact-form textarea {width: 100%;border-radius: 5px;padding: 10px;background-color: #f8f8f8;color: #8d8d8d;}
+.contact-map {display: flex;justify-content: flex-end;align-items: center;}
+.contact-map iframe {border-radius: 10px;height: 650px;width: 100%;}
+.back-contact {background-color: #dabfae;}
